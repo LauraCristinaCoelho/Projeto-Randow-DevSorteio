@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img src="./assets/dev-sorteio.png" alt="sorteio-logo">
+    </div>
+    <p class="drawn-number"></p>
+    <h2>Sortear um número</h2>
+    <div>
+        <input name="numMin" type="number" placeholder="entre" class="input-min" type="number">
+        <input name="numMax" type="number" placeholder="e" class="input-max" type="number">
+    </div>
+    <div class="container-buttons">
+        <button class="drawn"  onclick="generateNumber()">Sortear</button>
+        <button class="btnReset">Limpar</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
